@@ -1,7 +1,22 @@
 .App {
   text-align: center;
+  width: 100vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  height: 100vh;
+  align-items: flex-start;
+  background-color: #282c34;
 }
-
+.Card {
+  border: 1px solid black;
+  margin: 50px 10px 50px 10px;
+  width: 20%;
+  border-radius: 5px;
+  background-color: aliceblue;
+  box-shadow: black;
+  text-shadow: black;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
