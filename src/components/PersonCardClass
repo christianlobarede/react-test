@@ -1,0 +1,31 @@
+import React, { Component } from "react";
+
+class PersonCard extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      position: this.props.age,
+    };
+  }
+  Cumpleaños = () => {
+    this.setState({ position: this.props.age + 1 });
+  };
+  render() {
+    const { firstName, lastName, age, hairColor } = this.props;
+    return (
+      <div className="Card">
+        <h1>
+          {firstName} <span></span>
+          {lastName}
+        </h1>
+        <p id="Edad">Age: {this.state.position}</p>
+        <p>Hair color: {hairColor}</p>
+        <button id="Button" onClick={this.Cumpleaños}>
+          Boton de Cumpleaños para {firstName} {lastName}
+        </button>
+      </div>
+    );
+  }
+}
+
+export default PersonCard;
