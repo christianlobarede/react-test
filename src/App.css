@@ -1,23 +1,29 @@
+body {
+  background-color: rgb(53, 70, 102);
+}
 .App {
   text-align: center;
   width: 100vw;
   margin: auto;
   height: 100vh;
-  background-color: #282c34;
-  padding: 10px;
 }
 .Card {
   border: 1px solid black;
-  margin: 50px 10px 50px 10px;
-  width: 20%;
+  margin: auto;
+  width: 300px;
   border-radius: 5px;
   background-color: aliceblue;
-  box-shadow: black;
-  text-shadow: black;
-  display: inline-block;
-  padding: 10px;
+  margin-top: 10px;
+  background-color: rgb(183, 185, 190);
 }
 
+#buttons {
+  display: flex;
+  margin: 5px;
+}
+button {
+  margin: 5px;
+}
 .nocturno {
   border: 1px solid black;
   width: 150px;
