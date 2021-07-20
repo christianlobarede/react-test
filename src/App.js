@@ -1,7 +1,10 @@
 import React from "react";
 import "./App.css";
+import Form from "./components/Form";
+import NuevoComponente from "./components/NuevoComponente";
 
 import PersonCard from "./components/PersonCard";
+import PokemonCard from "./components/PokemonCard";
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
         age={62}
         hairColor="Brown"
       />
+      <Form />
+      <NuevoComponente />
+      <PokemonCard />
     </div>
   );
 }

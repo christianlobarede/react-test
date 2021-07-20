@@ -14,7 +14,7 @@ class PersonCard extends Component {
     this.setState({ age: this.state.age - 1 });
   };
   render() {
-    const { firstName, lastName, age, hairColor } = this.props;
+    const { firstName, lastName, hairColor } = this.props;
     return (
       <div className="Card">
         <h1>
